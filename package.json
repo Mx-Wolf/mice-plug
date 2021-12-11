@@ -1,0 +1,20 @@
+{
+  "name": "mice-plug",
+  "version": "1.0.0",
+  "description": "typescript implementation of the mice plugin system idea",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mx-Wolf/mice-plug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mx-Wolf/mice-plug/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mice","plugin", "plugin editor", "business table"],
+  "author": "Maxim Volkov",
+  "license": "ISC",
+  "homepage": "https://github.com/Mx-Wolf/mice-plug/#readme"
+}
