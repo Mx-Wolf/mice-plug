@@ -1,0 +1,34 @@
+export interface MiceControlMap {
+  'accBalance': never;
+  'accEdit': never;
+  'blobEdit': never;
+  'button': never;
+  'buttonEdit': never;
+  'cateEdit': never;
+  'checkBox': never;
+  'clientEdit': never;
+  'colorPicker': never;
+  'comboBox': never;
+  'comboValuePicker': never;
+  'currCombo': never;
+  'currEdit': never;
+  'edit': never;
+  'fileLinkEdit': never;
+  'graphicEdit': never;
+  'grid': never;
+  'memo': never;
+  'pickEdit': never;
+  'picSelect': never;
+  'popupTreeList': never;
+  'radioGroup': never;
+  'richEdit': never;
+  'staticEdit': never;
+  'staticMemo': never;
+  'staticText': never;
+  'symbolsEdit': never;
+  'syntaxMemo': never;
+  'treeGrid': never;
+  'trnTypeEdit': never;
+  'valuePicker': never;
+  'webBrowser': never;
+}
