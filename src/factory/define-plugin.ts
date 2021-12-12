@@ -1,4 +1,4 @@
 import { ElementType } from 'react';
-import { DefinePlugin } from '../types/define-plugin-type';
+import { PluginCreator } from '../types/plugin-creator';
 
-export const definePlugin:DefinePlugin = <TDataRow>():ElementType<TDataRow>=>{throw new Error('not implemented');};
+export const definePlugin:PluginCreator = <TDataRow>():ElementType<TDataRow>=>{throw new Error('not implemented');};

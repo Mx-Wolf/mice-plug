@@ -1,4 +1,4 @@
-import { DefineEditor } from '../types/define-editor-type';
+import { EditorCreator } from '../types/editor-creator';
 import { Form } from '../types/form';
 
-export const defineEditor:DefineEditor = <TDataRow>():Form<TDataRow> => {throw new Error('not implemented');};
+export const defineEditor:EditorCreator = <TDataRow>():Form<TDataRow> => {throw new Error('not implemented');};
