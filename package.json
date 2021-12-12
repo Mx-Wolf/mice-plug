@@ -18,8 +18,8 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha",
-    "lint": "eslint",
-    "format": "eslint --fix",
+    "lint": "eslint src",
+    "format": "eslint --fix src",
     "prepack": "npm run build",
     "prepublishOnly": "npm run test & npm run lint",
     "preversion": "npm run lint",
